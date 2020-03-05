@@ -1,2 +1,3 @@
 numero = float(input('Informe um número: '))
-print(f'O número é {numero}. O dobro desse valor é {numero * 2}. O triplo desse valor é {numero * 3}.')
+print('O dobro desse valor é {:.0f}'.format(numero * 2))
+print(f'O triplo desse valor é {numero * 3}.')
