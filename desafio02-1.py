@@ -1,0 +1,7 @@
+nome = input('Informe seu nome completo: ')
+print('Quantidade de Letras com espaço: ', len(nome))
+print('Quantidade de Letras sem espaço: ', len(nome.replace(" ", "")))
+print('Nome em minuscula:', nome.lower())
+print('Nome em maiscula:', nome.upper())
+lista = nome.split(" ")
+print(lista[0])
