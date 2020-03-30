@@ -1,0 +1,8 @@
+frase = input('Informe uma frase: ')
+print('Letra A: ', frase.lower().count('a'), 'vezes', '|', 'Letra E: ', frase.lower().count('e'), 'vezes')
+print('Letra I: ', frase.lower().count('i'), 'vezes', '|', 'Letra O: ', frase.lower().count('o'), 'vezes')
+print('Letra U: ', frase.lower().count('u'), 'vezes')
+posicao = frase.split(" ")
+print('A primeira letra é: ', frase[0].upper())
+print('A ultima letra é: ', frase[-1].upper())
+print(len(frase.split(" ")))
