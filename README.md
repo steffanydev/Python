@@ -17,7 +17,7 @@ Operações aritméticas
 % (Resto de Divisão)
 
 Ordem de Precedência 
-1° Parênteses
-2° Potenciação
-3° Multiplicação, Divisão, Divisão inteira, Resto de Divisão
-4° Soma e Subtração
+- 1° Parênteses
+- 2° Potenciação
+- 3° Multiplicação, Divisão, Divisão inteira, Resto de Divisão
+- 4° Soma e Subtração
